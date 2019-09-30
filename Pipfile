@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+jupyterlab = "*"
+v = {editable = true,version = "*"}
+
+[packages]
+numpy = "*"
+scipy = "*"
+pandas = "*"
+tensorflow = "*"
+keras = "*"
+requests = "*"
+matplotlib = "*"
+mido = "*"
+python-rtmidi = "*"
+
+[requires]
+python_version = "3.7.2"
